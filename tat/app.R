@@ -25,13 +25,11 @@ library(ggplot2)
 library(shiny)
 library(shinydashboard)
 
-setwd("D:/curriculum/MDS/DATA6200/final project/data")
-
-a18<-read.csv("2018.csv", header=T)
-a19<-read.csv("2019.csv", header=T)
-a20<-read.csv("2020.csv", header=T)
-a21<-read.csv("2021.csv", header=T)
-a22<-read.csv("2022.csv", header=T)
+a18<-read.csv("data/2018.csv", header=T)
+a19<-read.csv("data/2019.csv", header=T)
+a20<-read.csv("data/2020.csv", header=T)
+a21<-read.csv("data/2021.csv", header=T)
+a22<-read.csv("data/2022.csv", header=T)
 
 
 mymode <- function(x) {
